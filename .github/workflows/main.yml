@@ -19,5 +19,5 @@ jobs:
 
          - uses: actions/checkout@v3
 
-         - name: 'Aftar'
-           run: ls
+         - name: "Login to Docker hub"
+           run: docker login --username a7medfayez --passwoed dckr_pat_2B9Bm9NwGNxIFoDZd9hW2tOwkuU
